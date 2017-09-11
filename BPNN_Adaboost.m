@@ -11,10 +11,10 @@ ntr = size(x_train,1);
 nte = size(x_test,1);
 m = size(x_train,2);
 
-x_train = x_train';   %转置之后行表示变量，列表示观测样本
-x_test = x_test';     %转置之后行表示变量，列表示观测样本
-y_train = y_train';    %转置之后行表示输出（响应），列表示观测样本
-y_test = y_test';      %转置之后行表示输出（响应），列表示观测样本
+x_train = x_train';   
+x_test = x_test';     
+y_train = y_train';   
+y_test = y_test';     
 [inputn, inputps] = mapminmax(x_train);   %inputn是经过归一化后的数据，inputps是归一化过程中的参数（每个变量的均值及标准差）
 [outputn, outputps] = mapminmax(y_train);
 hiddenLayer = ones(1,nhl);
