@@ -1,5 +1,5 @@
 % 用Adaboost改进BPNN的预测能力，搭建BP_Adaboost强预测器，然后利用预测值进行分类
-% last modified on Jun,12th, 2017 by Lin
+% last modified on Jun, 12th, 2017 by Lin
 clear all
 
 load data
